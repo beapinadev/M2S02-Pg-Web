@@ -1,0 +1,133 @@
+body {
+    font-family: arial, sans-serif;
+    background: #c3e8af;
+    margin: 0;
+}
+.header {
+    background-image: url(./img/header.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    border-top: 1px solid transparent;
+}
+.header-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.header nav ul {
+    text-align: right;
+    margin: 10px 10px 0 0;
+}
+.header nav li {
+    display: inline-block;
+    list-style: none;
+    border: 2px solid #ffffff;
+    margin-left: 5px;
+}
+.header nav a {
+    background-color: rgba(195, 232, 175, 0.5);
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+.header nav a:hover {
+    background-color: rgba(90, 161, 62, 1);
+}
+.header-content h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    text-shadow: 3px 5px 3px #5AA13E;
+}
+.header-content p {
+    background-color: rgba(195, 232, 175, 0.5);
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.sobre {
+    background-color: #E1F8D4;
+    padding: 10px;
+    margin-top: 15px;
+    color: #2E4F20;
+    font-variant:small-caps;
+    overflow: auto;
+}
+.sobre h2 {
+    border-bottom: solid 2px #2E4F20;
+    text-align: center; 
+    color: #2E4F20;
+    font-size: 36px;
+    
+}
+.sobre p {
+    text-indent: 5%;
+    font-size: 17px;
+}
+form {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+}
+.contact {
+    height: 400px;
+    background-color: #E1F8D4;
+    margin: auto;
+}
+.contact h2 {
+    text-align: center; 
+    color: #2E4F20;
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.column{
+    flex-direction: column;
+    width: 500px;
+    color: #2E4F20;
+    margin: 15px;
+}
+label {
+    margin: 5px;
+    font-variant: small-caps;
+}
+input {
+    background-color:#fbf8de;
+}
+textarea {
+    width: 500px;
+    height: 140px;
+    background-color:#fbf8de;
+}
+.btnSend {
+    background-color: #2E4F20;
+    border: solid 1px #c3e8af;
+    color: #c3e8af;
+    height: 30px;
+    width: 150px;
+    font-variant: small-caps;
+}
+.btnClear {
+    background-color: #c3e8af;
+    border: solid 1px #2E4F20;
+    color: #2E4F20;
+    height: 30px;
+    width: 100px;
+    font-variant: small-caps;
+}
+footer {
+    background-color: #2E4F20;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
